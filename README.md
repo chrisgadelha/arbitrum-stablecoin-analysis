@@ -5,7 +5,7 @@
 This project tracks daily volume, transaction frequency, stablecoin composition shifts, and value distribution patterns from January 2023 to March 2026 — covering the full post-Nitro era of Arbitrum's growth.
 
 [![Dashboard](https://img.shields.io/badge/Dune-Dashboard-blue?style=flat&logo=dune)](https://dune.com/chrisgadelha)
-[![Medium](https://img.shields.io/badge/Medium-Article-black?style=flat&logo=medium)](https://medium.com/@chrisgadelha)
+[![Medium](https://img.shields.io/badge/Medium-Article-black?style=flat&logo=medium)](https://medium.com/@gadelhaweb3)
 
 ---
 
@@ -29,7 +29,7 @@ The anomaly detection system flagged only 5 days where activity exceeded 3x the 
 
 ## Dashboard
 
-**[View the interactive dashboard on Dune →](https://dune.com/chrisgadelha)**
+**[View the interactive dashboard on Dune →](https://dune.com/chrisgadelha/stablecoin-behavior-on-arbitrum)**
 
 The dashboard contains 6 panels:
 
@@ -48,9 +48,7 @@ The dashboard contains 6 panels:
 ## Repository Structure
 
 ```
-├── README.md                  # This file
-├── ANOMALIES.md               # Detailed anomaly analysis
-├── METHODOLOGY.md             # Data sources, filters, and assumptions
+├── README.md                 
 ├── queries/
 │   ├── query_1_daily_volume_usd.sql
 │   ├── query_2_daily_tx_count.sql
@@ -59,8 +57,7 @@ The dashboard contains 6 panels:
 │   ├── query_panel3_stablecoin_migration.sql
 │   ├── query_panel5_whale_trends.sql
 │   └── query_bonus_anomaly_detection.sql
-└── data/
-    └── token_contracts.csv
+
 ```
 
 ---
@@ -96,7 +93,6 @@ All queries use the `erc20_arbitrum.evt_Transfer` table on Dune Analytics. This 
 ### Anomaly Detection
 Days are flagged when daily volume OR transaction count exceeds 3x the trailing 30-day moving average. Anomalies are classified as volume-only (institutional), transfers-only (retail), or both (market-wide).
 
-For full methodology details, see [METHODOLOGY.md](METHODOLOGY.md).
 
 ---
 
@@ -107,7 +103,6 @@ For full methodology details, see [METHODOLOGY.md](METHODOLOGY.md).
 3. Click **Run** (queries may take 1–3 minutes due to the 3+ year date range)
 4. Save the query and add visualizations
 
-All queries are self-contained — no external dependencies or API keys needed.
 
 ---
 
@@ -119,11 +114,6 @@ Arbitrum Ambassador — Brazil | Economist | Military Firefighter
 This project combines on-chain data analysis with economic reasoning to explore how stablecoin transfer patterns reveal structural characteristics of a Layer 2 ecosystem. It is part of a broader research agenda applying economic analysis to blockchain data.
 
 - **Dune:** [dune.com/chrisgadelha](https://dune.com/chrisgadelha)
-- **Medium:** [medium.com/@chrisgadelha](https://medium.com/@chrisgadelha)
-- **LinkedIn:** [linkedin.com/in/chrisgadelha](https://linkedin.com/in/chrisgadelha)
+- **Medium:** [medium.com/@chrisgadelha](https://medium.com/@gadelhaweb3)
+- **LinkedIn:** [linkedin.com/in/chrisgadelha](https://linkedin.com/in/christian-gadelha)
 
----
-
-## License
-
-This project is open source under the [MIT License](LICENSE). Feel free to fork, adapt, and build upon this analysis. Attribution is appreciated.
