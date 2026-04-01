@@ -4,8 +4,8 @@
 
 This project tracks daily volume, transaction frequency, stablecoin composition shifts, and value distribution patterns from January 2023 to March 2026 — covering the full post-Nitro era of Arbitrum's growth.
 
-[![Dashboard](https://img.shields.io/badge/Dune-Dashboard-blue?style=flat&logo=dune)](https://dune.com/chrisgadelha)
-[![Medium](https://img.shields.io/badge/Medium-Article-black?style=flat&logo=medium)](https://medium.com/@gadelhaweb3)
+[![Dashboard](https://img.shields.io/badge/Dune-Dashboard-blue?style=flat&logo=dune)]([https://dune.com/chrisgadelha](https://dune.com/chrisgadelha/stablecoin-behavior-on-arbitrum))
+[![Medium](https://img.shields.io/badge/Medium-Article-black?style=flat&logo=medium)]([https://medium.com/@gadelhaweb3](https://medium.com/@gadelhaweb3/3-years-of-stablecoin-transfers-on-arbitrum-what-the-data-actually-reveals-25ed1fb777d3))
 
 ---
 
