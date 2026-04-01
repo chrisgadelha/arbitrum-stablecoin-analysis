@@ -114,6 +114,6 @@ Arbitrum Ambassador — Brazil | Economist | Military Firefighter
 This project combines on-chain data analysis with economic reasoning to explore how stablecoin transfer patterns reveal structural characteristics of a Layer 2 ecosystem. It is part of a broader research agenda applying economic analysis to blockchain data.
 
 - **Dune:** [dune.com/chrisgadelha](https://dune.com/chrisgadelha)
-- **Medium:** [medium.com/@chrisgadelha](https://medium.com/@gadelhaweb3)
+- **Medium:** [medium.com/@gadelhaweb3](https://medium.com/@gadelhaweb3)
 - **LinkedIn:** [linkedin.com/in/chrisgadelha](https://linkedin.com/in/christian-gadelha)
 
